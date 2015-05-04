@@ -2,5 +2,5 @@
 
 # Build docker image
 git clone https://github.com/spectosi/dokku-pg94-dockerfiles.git /tmp/dokku-pg94-dockerfiles
-docker build -q=true -t specto/postgresql /tmp/dokku-pg94-dockerfiles
+docker build -t specto/postgresql /tmp/dokku-pg94-dockerfiles
 rm -rf /tmp/dokku-pg94-dockerfiles
